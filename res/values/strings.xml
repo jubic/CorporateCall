@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CorporateCall!</string>
+    <string name="app_name">Corporate Call</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="contact_name">Name</string>
+    <string name="contact_func">Function</string>
+    <string name="contact_comp">Company</string>
+    <string name="contact_numb">Number</string>
+    <string name="remove_contacts">Remove Contacts</string>
+    <string name="refresh_contacts">Refresh</string>
+    <string name="call_contact">Call Contact</string>
+    <string name="view_contact">View Contact</string>
+    <string name="text_contact">Text Contact</string>
+    <string name="delete_contact">Delete Contact</string>
+    <string name="edit_contact">Edit Contact</string>
+</resources>

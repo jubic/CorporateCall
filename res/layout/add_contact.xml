@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:id="@+id/addContactTV"
+		android:layout_width="wrap_content" android:text="@string/add_contact"
+		android:layout_alignParentTop="true" android:layout_alignParentLeft="true">
+	</TextView>
+	<EditText android:id="@+id/nameET" android:inputType="textPersonName"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_below="@+id/addContactTV"
+		android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+		android:hint="@string/contact_name">
+	</EditText>
+	<EditText android:id="@+id/funcET" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_below="@+id/nameET"
+		android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+		android:hint="@string/contact_func">
+	</EditText>
+	<EditText android:id="@+id/compET" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_below="@+id/funcET"
+		android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+		android:hint="@string/contact_comp">
+	</EditText>
+	<EditText android:id="@+id/numbET" android:inputType="numberSigned"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_below="@+id/compET" android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true" android:hint="@string/contact_numb">
+	</EditText>
+	<Button android:text="@string/add_contact"
+		android:layout_height="wrap_content" android:id="@+id/addBtn"
+		android:layout_width="fill_parent" android:layout_below="@+id/numbET"
+		android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+	</Button>
+</RelativeLayout>
